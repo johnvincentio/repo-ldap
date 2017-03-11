@@ -1,0 +1,17 @@
+version: 1
+
+#!RESULT ERROR
+#!CONNECTION ldap://localhost:10389
+#!DATE 2015-08-25T10:35:02.414
+#!ERROR [LDAP: error code 32 - NO_SUCH_OBJECT: failed for MessageType : ADD_REQUEST Message ID : 15     Add Request : Entry     dn[n]: cn=John Keats,ou=users,o=mojo     objectClass: organizationalPerson     objectClass: person     objectClass: inetOrgPerson     objectClass: top     uid: jkeats     sn: Keats     cn: John Keats     userPassword: 0x7B 0x53 0x53 0x48 0x41 0x7D 0x56 0x2F 0x35 0x54 0x65 0x45 0x46 0x77 0x57 0x66 ... : ERR_268 Cannot find a partition for cn=John Keats,ou=users,o=mojo]
+dn: cn=John Keats,ou=users,o=mojo
+objectClass: organizationalPerson
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: top
+cn: John Keats
+sn: Keats
+uid: jkeats
+userPassword:: e1NTSEF9Vi81VGVFRndXZjB0RE9tZmhWb0U0bDY5R1FRQWxoR2dzcUFvM0E9P
+ Q==
+
